@@ -1,0 +1,8 @@
+# Exact versions that produced the numbers in the README (Python 3.12).
+# Reproduce with:  pip install -r requirements-lock.txt && pip install -e . --no-deps
+# The package itself accepts wider ranges (see pyproject.toml) and is tested on
+# Python 3.10 / pandas 2.3 as well as Python 3.12 / pandas 3.0.
+numpy==2.4.6
+pandas==3.0.5
+lightgbm==4.7.0
+convertdate==2.4.1

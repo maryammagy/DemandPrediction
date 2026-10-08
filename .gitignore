@@ -1,0 +1,44 @@
+# ---------------------------------------------------------------------------
+# Confidential / data-derived files - NEVER commit these.
+# The original dataset may not be redistributed (see data/README.md).
+# ---------------------------------------------------------------------------
+data/raw/*
+!data/raw/.gitkeep
+data/synthetic/
+data/processed/
+
+# Trained models embed per-cluster demand statistics.
+artifacts/
+
+# Backtest cells, forecasts and cluster mappings derived from the data.
+outputs/
+
+*.rar
+*.zip
+*.parquet
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Notebooks / editors / OS
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
